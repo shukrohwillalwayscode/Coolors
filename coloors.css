@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color:#FFFFFF;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    /* align-items: c; */
+    width: 95%;
+    height: 10%;
+    margin: 0px;
+    padding: 20px 20px;
+    border: 30px none whitesmoke;
+    font-size: 18px;
+    /* background-color: red; */
+
+
+
+}
+nav .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* padding-right: -1000px; */
+
+  
+}
+.left .img-nav{
+  width: 1000px;
+  height: 100vh;
+  display: block;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin: -5px;
+    background-color: (0, 0, 0, 0.075);
+
+    height: 30px;
+}
+h2{
+  color: #0066FF; 
+}
+.in{
+   
+    border-radius: 9px;
+    background-color: #0066FF;
+    color: white;
+   
+    padding: 12px;
+}
+.go{
+    color: hotpink;
+    transition: color 0.3s ease-in-out;
+}
+.go:hover{
+    color: #0075FC; 
+}
+a {
+    color: blue; /* Initial color of the link */
+    text-decoration: none; /* Remove the default underline */
+    transition: color 0.3s ease-in-out; /* Smooth transition for the color change */
+  }
+  
+  
+  
+  .go:hover:hover { 
+    color: green;
+  }
+  
+  .go:hover:hover:hover {
+    color: orange; /* Third hover color */
+  }
+  
+  .go:hover:hover:hover:hover {
+    color: purple; /* Fourth hover color */
+  }
+  .go:hover:hover:hover:hover:hover {
+    color:#5DD1AC ;
+  }
+  h1{
+    font-family: Inter, sans-serif;
+font-size: 70px;
+font-weight: 700;
+line-height: 77px;
+color: rgb(0, 0, 0);
+  }
+  p{
+    font-family: Inter, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(70, 72, 83);
+  }
+  .heropage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+  }
+  .textarea{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px auto;
+    /* background-color: red; */
+    width: 33%;
+    margin-left: 80px;
+    gap: 10px;
+    
+  }
+  .link{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 20px;
+  }
+  button{
+   box-sizing: wrap;
+   width: 250px;
+   height: 55px;
+   border-radius: 9.5%;
+   font-family: Inter, sans-serif;
+   font-family: Inter, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 46px;
+  
+  }
+  .btn{
+    background-color: #005CE6;
+    color: white;
+  }
+  .box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 95%;
+    height: 400px;
+    /* background-color: red; */
+    margin: 50px 50px;
+   
+
+   
+  }
+  .box1{
+    box-sizing: content-box;
+    text-align: center;
+    background-color: #F7F7F8;
+    width: 20%;
+    height:300px ;
+    padding: 20px;
+    border-radius: 5%;
+  }
+  .box2{
+    box-sizing: content-box;
+    text-align: center;
+    background-color: #F7F7F8;
+    width: 20%;
+    height:300px ;
+    padding: 20px;
+    border-radius: 5%;
+  
+  }
+  .box3{
+    box-sizing: content-box;
+    text-align: center;
+    background-color: #F7F7F8;
+    width: 20%;
+    height:300px ;
+    padding: 20px;
+    border-radius: 5%;
+  }
+  
+  .box4{
+    box-sizing: content-box;
+    text-align: center;
+    background-color: #F7F7F8;
+    width: 20%;
+    height:300px ;
+    padding: 20px;
+    border-radius: 5%;
+  }
+  .box5{
+    box-sizing: content-box;
+    text-align: wrap;
+    background-color: #F7F7F8;
+    width: 20%;
+    height:300px ;
+    padding: 20px;
+    border-radius: 5%;
+    margin-right: 20px;
+    
+  
+  }
+  .logo ul{
+   
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+    
+  }
+
+ul li a img{
+     /* Basic styling for all grid items */
+      padding: 20px;
+    
+      text-align: center;
+    
+  }
+  
+  
+ ul img{
+    display: inline;
+    width: 50px;
+
+  }
+  @media screen and (max-width: 480px)
+   {
+    nav{
+      position: fixed;
+      z-index: 2px;
+      top: 0px;
+       display: hide;
+    }
+
+}
